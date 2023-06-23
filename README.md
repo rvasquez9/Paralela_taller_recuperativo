@@ -10,7 +10,11 @@ y 500000000.
 
 # Instrucciones
 Compilar nprimos
-g++ -fopenmp nprimos.cpp -o nprimos
+```bash
+$ g++ -fopenmp nprimos.cpp -o nprimos
+```
 
 Ejecutar nprimos
-time ./nprimos
+```bash
+$ time ./nprimos
+```
