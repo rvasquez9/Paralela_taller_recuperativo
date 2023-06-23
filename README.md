@@ -7,3 +7,9 @@ y 500000000.
 - Mauricio Estrada
 - Rodrigo Vasquez
 - Oscar Soto
+
+# Instrucciones
+Compilar nprimos
+- g++ -fopenmp nprimos.cpp -o nprimos
+Ejecutar nprimos
+- time ./nprimos
