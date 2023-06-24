@@ -1,5 +1,5 @@
 #include <iostream>
-#include <set> // se utiliza la libreria set debido a un problema al mostrar los valores ordenados
+#include <set> // se utiliza la libreria set para ordenar el formato al mostrar los valores en consola
 #include <omp.h>
 
 bool esPrimo(int num) { // funcion para verificar si un número es primo
@@ -50,7 +50,7 @@ void imprimirNumerosPrimos(int n) {
 }
 
 int main() {
-	std::cout << "Cantidad de hilos: " <<  omp_get_max_threads()<< std::endl;
+    std::cout << "Cantidad de hilos: " <<  omp_get_max_threads()<< std::endl;
     imprimirNumerosPrimos(500000000);
     std::cout << std::endl << "=== Taller Recuperativo ===" << std::endl;
     std::cout << std::endl << "Mauricio Estrada";
